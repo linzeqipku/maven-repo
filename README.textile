@@ -1,5 +1,4 @@
-h1. Welcome in the Ekito's public Maven repository !
-
+h1. This is linzeqipku's Maven repository !
 
 h2. How to use it
 
@@ -7,12 +6,12 @@ Add this in your @pom.xml@ file:
 
 bc. <repositories>
     <repository>
-        <id>ekito-public-snapshots</id>
-        <url>https://raw.github.com/Ekito/maven-repo/master/snapshots</url>
+        <id>linzeqipku-public-snapshots</id>
+        <url>https://raw.github.com/linzeqipku/maven-repo/master/snapshots</url>
     </repository>
     <repository>
-        <id>ekito-public-releases</id>
-        <url>https://raw.github.com/Ekito/maven-repo/master/releases</url>
+        <id>linzeqipku-public-releases</id>
+        <url>https://raw.github.com/linzeqipku/maven-repo/master/releases</url>
     </repository>
 </repositories>
 
@@ -24,17 +23,17 @@ Add this in the @pom.xml@ of the artifact to be deployed:
 bc.  <distributionManagement>
     <repository>
         <id>repo</id>
-        <url>https://raw.github.com/Ekito/maven-repo/master/releases</url>
+        <url>https://raw.github.com/linzeqipku/maven-repo/master/releases</url>
     </repository>
     <snapshotRepository>
         <id>snapshot-repo</id>
-        <url>https://raw.github.com/Ekito/maven-repo/master/snapshots</url>
+        <url>https://raw.github.com/linzeqipku/maven-repo/master/snapshots</url>
     </snapshotRepository>
 </distributionManagement>
 
 Clone the git repository locally :
 
-@$> git clone git@github.com:Ekito/maven-repo.git
+@$> git clone git@github.com:linzeqipku/maven-repo.git
 
 Then deploy the files in your local repo (beware if it is a release or a snapshot !!!):
 
@@ -45,9 +44,5 @@ And commit and push your changes to github:
 bc. 
 $> git commit -m "MESSAGE"
 $> git push origin master
-
-h2. Greetings
-
-Thanks to "Cemerick":http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/ for setting up this Maven repository.
 
 
