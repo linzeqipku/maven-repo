@@ -33,7 +33,7 @@ bc.  <distributionManagement>
 
 Clone the git repository locally :
 
-@$> git clone https://github.com/linzeqipku/maven-repo.git
+@$> git clone https://github.com/linzeqipku/maven-repo.git@
 
 Then deploy the files in your local repo (beware if it is a release or a snapshot !!!):
 
