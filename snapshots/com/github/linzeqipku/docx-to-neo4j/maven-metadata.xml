@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.linzeqipku</groupId>
+  <artifactId>docx-to-neo4j</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180327052636</lastUpdated>
+  </versioning>
+</metadata>
